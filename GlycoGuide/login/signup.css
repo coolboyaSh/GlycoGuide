@@ -1,0 +1,178 @@
+body {
+    background-color: #ebf4f4;
+    font-family: Prompt;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a9d3d9;
+    height: 700px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    
+}
+
+.box {
+    height: 500px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e4d5f;
+    border-radius: 20px;
+}
+
+.anon-img {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    
+}
+
+.anon {
+    height: 200px;
+    border-radius: 50%;
+}
+
+.Username {
+    margin-bottom: 15px;
+}
+
+.Create-account {
+    margin: 0;
+    color: #d7f3fb;
+}
+
+.Question {
+    margin-top: 15px;
+    margin-bottom: 0;
+    color: #507e8f;
+}
+
+input[type="text"], textarea {
+    background-color: #a9d3d9;
+    border-width: 0;
+    font-family: Prompt;
+}
+
+.username-box,
+.password-box {
+    height: 30px;
+    border-radius: 20px;
+    width: 250px;
+}
+
+.Password {
+    margin-bottom: 35px;
+}
+
+.login {
+    background-color: #a9d3d9;
+    width: 125px;
+    height: 30px;
+    border-radius: 20px;
+    color: #507d83;
+    border-width: 0;
+    font-family: Prompt;
+}
+.Create-account a{
+    color: white;
+}
+
+
+.imglogo{
+width: 15rem;
+object-fit: cover;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ebf4f4;
+    margin: 0;
+    
+}
+a{
+    text-decoration: none;
+}
+.container{
+    display: grid;
+    grid-template: 1fr 5fr 0.5fr/0.65fr 3.5fr;
+}
+.footer{
+    grid-area: 3/2/4/3;
+    background-color:#5b8894;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22%;
+}
+h1{
+    color: #365486;
+}
+.top{
+    text-align: center;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline #365486;
+}
+
+.nav{
+    background-color: #b7dde6;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 21%;
+}
+.navv{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 100%;
+    justify-content: space-around;
+
+}
+.nav-button{
+    
+}
+.nav-link{
+    color: #365486;
+    font-size: 200%;
+}
+.nav-link:hover{
+    background-color: white;
+}
+
+.menu{
+    background-color: #5b8894;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+.Menu{
+    background-color: #365486;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-link{
+    color: white;
+    font-size: 180%;
+    display: inline-block;
+    
+}
+.nav-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer a{
+    color: white;
+    font-size: x-large;
+}
